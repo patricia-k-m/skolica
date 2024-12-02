@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iTunes Song Finder</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>iTunes Song Finder</h1>
+    <input type="text" id="search" placeholder="Search..." />
+    <div class="loader">Loading...</div>
+    <div class="message"></div>
+    <table id="results-table">
+      <thead>
+        <tr>
+          <th>Song Name</th>
+          <th>Artist</th>
+        </tr>
+      </thead>
+      <tbody id="results-body"></tbody>
+    </table>
+  </body>
+</html>
